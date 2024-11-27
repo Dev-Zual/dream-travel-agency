@@ -1,19 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 /* reset some default style */
+
+:root {
+  --primary-color: #ff5400;
+  --primary-text-color: #131318;
+  --secondary-text-color: #424247;
+  --third-text-color: #5a5a5d;
+}
+
 * {
   box-sizing: border-box;
-}
-body,
-ul,
-li,
-p,
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
   padding: 0;
   margin: 0;
 }
@@ -33,4 +29,59 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--primary-text-color);
+}
+.active {
+  color: var(--primary-color) !important;
+  font-weight: 700 !important;
+}
+.btn-primary {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.25rem;
+  background-color: var(--primary-color);
+}
+/* 
+==========
+header area styles
+==========
+*/
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+nav#navbar ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo h1 {
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+nav#navbar ul li a {
+  font-size: 1.125rem;
+  color: var(--secondary-text-color);
 }
