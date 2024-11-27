@@ -48,7 +48,7 @@ p {
   border: none;
   border-radius: 7px;
   color: #fff;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 1.25rem;
   background-color: var(--primary-color);
 }
@@ -140,15 +140,55 @@ banner area styles
   justify-content: space-between;
   align-items: center;
 }
-.search-input-group input,
-select,
-button {
+.search-input-group > input,
+select {
   width: 130px;
   color: var(--secondary-text-color);
+}
+.search-input-group > button {
+  width: 130px;
 }
 
 .search-input-group button {
   font-weight: 500;
   font-size: 1rem;
   padding: 11px 20px;
+}
+
+/* out tours area styles */
+.our-tours-area {
+  display: flex;
+  margin: 5rem 0;
+  gap: 5rem;
+  justify-content: space-between;
+}
+.tours-text {
+  width: 55%;
+}
+.tour-img {
+  width: 45%;
+}
+.tour-img img {
+  width: 100%;
+}
+.tours-text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.tours-text p,
+li {
+  color: var(--third-text-color);
+  line-height: 1.625rem;
+}
+.tours-text ul {
+  margin: 2rem 3rem;
+}
+.tours-text ul li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+.tours-text button {
+  margin-top: 30px;
+  font-size: 1.25rem;
 }
