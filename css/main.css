@@ -52,8 +52,9 @@ p {
   border-radius: 7px;
   color: #fff;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1rem;
   background-color: var(--primary-color);
+  cursor: pointer;
 }
 input,
 select {
@@ -333,10 +334,25 @@ div#middle-card {
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.deals-row-2 {
+  background-image: url("../Images/resort.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
 }
 .deals-img-text {
   display: flex;
   justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+.deals-img-text-row-2 {
+  display: flex;
   align-items: center;
   height: 100%;
 }
@@ -346,6 +362,10 @@ div#middle-card {
   margin-right: 3rem;
   padding: 3rem;
   border-radius: 10px;
+}
+#deals-upper-text-row-2 {
+  margin-right: 0;
+  margin-left: 3rem;
 }
 .deals-upper-text h3 {
   font-weight: 800;
