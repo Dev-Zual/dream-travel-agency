@@ -40,6 +40,7 @@ h6 {
 }
 p {
   color: var(--third-text-color);
+  line-height: 1.625rem;
 }
 .active {
   color: var(--primary-color) !important;
@@ -253,4 +254,61 @@ li {
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
+}
+
+/* why choose us */
+.choose-us-area {
+  margin-bottom: 5rem;
+}
+.choose-us-area h1 {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+.choose-us-area > p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card-row-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.4rem;
+}
+
+.card {
+  background-color: #fffbf7;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #feedd9;
+}
+#card-2 {
+  background-color: #f4fdff;
+  border: 1px solid #cbf4fd;
+}
+.card:last-child {
+  justify-content: center;
+}
+.card img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.card-row-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.3rem;
+}
+
+div#middle-card {
+  width: 49%;
 }
