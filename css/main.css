@@ -52,6 +52,14 @@ p {
   font-size: 1.25rem;
   background-color: var(--primary-color);
 }
+input,
+select {
+  padding: 10px;
+  color: var(--secondary-text-color);
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
 /* 
 ==========
 header area styles
@@ -75,7 +83,9 @@ nav#navbar ul {
   align-items: center;
   gap: 1rem;
 }
-
+.logo span {
+  color: var(--primary-color);
+}
 .logo h1 {
   font-size: 2.25rem;
   font-weight: 900;
@@ -84,4 +94,61 @@ nav#navbar ul {
 nav#navbar ul li a {
   font-size: 1.125rem;
   color: var(--secondary-text-color);
+}
+/* 
+banner area styles
+========
+*/
+.banner-area {
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0) 0%,
+      rgba(19, 19, 24, 0.14889705882352944) 0%,
+      rgba(19, 19, 24, 0.8239670868347339) 100%
+    ),
+    url("../Images/bridge-hill.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin: 2rem 0;
+  border-radius: 10px;
+  background-size: cover;
+}
+.banner-text {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+.banner-text h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.banner-text p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 1rem 0rem;
+}
+.search-input-group {
+  background: #ffffff42;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-input-group input,
+select,
+button {
+  width: 130px;
+  color: var(--secondary-text-color);
+}
+
+.search-input-group button {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 11px 20px;
 }
