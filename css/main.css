@@ -35,9 +35,11 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   color: var(--primary-text-color);
+}
+p {
+  color: var(--third-text-color);
 }
 .active {
   color: var(--primary-color) !important;
@@ -191,4 +193,64 @@ li {
 .tours-text button {
   margin-top: 30px;
   font-size: 1.25rem;
+}
+
+/* destination area  */
+.destination-area {
+  margin-bottom: 5rem;
+}
+.destination-area h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.destination-area p {
+  margin: 2rem 0;
+  text-align: center;
+  color: var(--third-text-color);
+}
+.destination-img-group {
+  display: grid;
+  gap: 1rem;
+}
+
+.row-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  height: 286px;
+}
+
+.destination-img-group img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 286px;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  height: 286px;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  height: 286px;
+}
+.top-img-text {
+  position: relative;
+}
+
+.top-img-text h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 8rem;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
 }
