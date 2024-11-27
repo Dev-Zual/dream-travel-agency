@@ -312,3 +312,62 @@ li {
 div#middle-card {
   width: 49%;
 }
+/* deals and discount area */
+.deals-area {
+  margin-bottom: 5rem;
+}
+
+.deals-area > h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.deals-area > p {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+.deals-row-1 {
+  background-image: url("../Images/beach.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.deals-img-text {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+.deals-upper-text {
+  width: 50%;
+  background-color: #ffffffb0;
+  margin-right: 3rem;
+  padding: 3rem;
+  border-radius: 10px;
+}
+.deals-upper-text h3 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.deals-upper-text h4 {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  color: var(--primary-color);
+  font-weight: 800;
+}
+.text-top span {
+  margin-right: 30px;
+}
+
+.text-top i {
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+
+.text-top {
+  margin-bottom: 20px;
+}
