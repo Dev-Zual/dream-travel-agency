@@ -76,12 +76,6 @@ header area styles
   padding: 10px 0px;
 }
 
-nav#navbar ul {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
-
 .logo {
   display: flex;
   align-items: center;
@@ -94,10 +88,19 @@ nav#navbar ul {
   font-size: 2.25rem;
   font-weight: 900;
 }
+nav#navbar ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 
 nav#navbar ul li a {
   font-size: 1.125rem;
   color: var(--secondary-text-color);
+}
+.mobile-menu {
+  font-size: 1.35rem;
+  display: none;
 }
 /* 
 banner area styles
@@ -137,7 +140,7 @@ banner area styles
   margin: 1rem 0rem;
 }
 .search-input-group {
-  background: #ffffff42;
+  background: #ffffff52;
   padding: 15px 20px;
   border-radius: 8px;
   display: flex;
