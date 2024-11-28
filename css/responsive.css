@@ -2,6 +2,9 @@
   .container {
     margin: 0 1rem;
   }
+  .simple-area {
+    flex-direction: column;
+  }
   p {
     font-size: 0.875rem;
   }
@@ -109,5 +112,19 @@
   }
   #deals-bottom-btn {
     display: none;
+  }
+  .simple-area {
+    margin-bottom: 2rem;
+  }
+  .simple-area-text {
+    width: 100%;
+  }
+  .simple-area-img {
+    width: 100%;
+    position: relative;
+  }
+  .simple-area-text h1 {
+    font-size: 1.25rem;
+    font-weight: 800;
   }
 }
