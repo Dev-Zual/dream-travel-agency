@@ -116,7 +116,7 @@ banner area styles
       rgba(19, 19, 24, 0.14889705882352944) 0%,
       rgba(19, 19, 24, 0.8239670868347339) 100%
     ),
-    url("../Images/bridge-hill.png");
+    url("../images/bridge-hill.png");
   height: 500px;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -334,7 +334,7 @@ div#middle-card {
   margin: 2rem 0rem;
 }
 .deals-row-1 {
-  background-image: url("../Images/beach.png");
+  background-image: url("../images/beach.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -343,7 +343,7 @@ div#middle-card {
   margin-bottom: 1.5rem;
 }
 .deals-row-2 {
-  background-image: url("../Images/resort.png");
+  background-image: url("../images/resort.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
