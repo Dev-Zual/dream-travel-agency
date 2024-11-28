@@ -56,4 +56,13 @@
   .tour-img {
     width: 100%;
   }
+  /* destination area */
+  .destination-area p {
+    margin-top: 1rem;
+  }
+  .destination-img-group .row-1,
+  .row-2,
+  .row-3 {
+    grid-template-columns: 1fr;
+  }
 }
