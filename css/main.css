@@ -512,3 +512,28 @@ div#middle-card {
   color: #fff;
   font-size: 2rem;
 }
+/* footer area */
+footer {
+  background: #f3f3f3;
+  padding: 100px 0;
+  text-align: center;
+}
+#footer-logo {
+  justify-content: center;
+}
+
+.footer-area p {
+  margin: 1.1rem 0;
+}
+
+.social-icon i {
+  margin-right: 1.1rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: var(--secondary-text-color);
+}
+
+.footer-area hr {
+  margin: 4rem 0;
+  border: 1px solid #d8d8d8;
+}
