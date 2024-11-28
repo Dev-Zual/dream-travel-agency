@@ -82,4 +82,32 @@
   #middle-card {
     width: 100% !important;
   }
+
+  /* deals & discount */
+  .deals-area {
+    margin-bottom: 2rem;
+  }
+  .deals-img-text {
+    justify-content: center;
+  }
+  .deals-upper-text {
+    width: 80%;
+    padding: 1.4rem;
+    margin-right: 0;
+    margin-bottom: -77px;
+  }
+  .deals-img-text-row-2 {
+    justify-content: center;
+  }
+  #deals-upper-text-row-2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .text-top span:first-child {
+    display: block;
+    margin-bottom: 1.2rem;
+  }
+  #deals-bottom-btn {
+    display: none;
+  }
 }

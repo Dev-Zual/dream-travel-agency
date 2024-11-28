@@ -384,6 +384,7 @@ div#middle-card {
 }
 .text-top span {
   margin-right: 30px;
+  color: var(--third-text-color);
 }
 
 .text-top i {
