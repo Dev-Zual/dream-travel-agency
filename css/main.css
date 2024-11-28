@@ -391,3 +391,48 @@ div#middle-card {
 .text-top {
   margin-bottom: 20px;
 }
+/* simple area */
+.simple-area {
+  display: flex;
+  gap: 1.7rem;
+  margin-bottom: 5rem;
+}
+
+.simple-area-text {
+  width: 50%;
+}
+
+.simple-area-img {
+  width: 50%;
+  position: relative;
+}
+.simple-area-text h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.simple-area-text ul {
+  margin: 1.5rem 0 1.5rem 1.4rem;
+}
+
+.simple-area-text ul li {
+  list-style: disc;
+  margin-bottom: 14px;
+}
+
+.simple-area-text p {
+  margin-top: 1rem;
+}
+.simple-area-img img {
+  width: 100%;
+  height: 100%;
+}
+.simple-area-img video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 37%;
+  border-radius: 10px;
+}
