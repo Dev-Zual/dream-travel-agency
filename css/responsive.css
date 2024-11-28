@@ -57,6 +57,9 @@
     width: 100%;
   }
   /* destination area */
+  .destination-area {
+    margin-bottom: 2rem;
+  }
   .destination-area p {
     margin-top: 1rem;
   }
@@ -64,5 +67,19 @@
   .row-2,
   .row-3 {
     grid-template-columns: 1fr;
+    height: 100%;
+  }
+  /* why choose us area  */
+  .choose-us-area {
+    margin-bottom: 2rem;
+  }
+  .choose-us-cards .card-row-1 {
+    grid-template-columns: 1fr;
+  }
+  .choose-us-cards .card-row-2 {
+    flex-direction: column;
+  }
+  #middle-card {
+    width: 100% !important;
   }
 }
