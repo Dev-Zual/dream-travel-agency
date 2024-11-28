@@ -11,6 +11,25 @@
   #navbar {
     display: none;
   }
+  nav#navbar ul {
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    align-items: flex-end;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 1rem;
+    box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.1);
+  }
+  nav#navbar ul li {
+    border-bottom: 1px solid #ddd;
+    width: 80%;
+    text-align: right;
+  }
+  nav#navbar ul li:last-child {
+    border-bottom: none;
+  }
   .logo img {
     width: 40px;
   }
