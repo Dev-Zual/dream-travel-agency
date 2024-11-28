@@ -2,23 +2,23 @@
   .container {
     margin: 0 1rem;
   }
-  p{
+  p {
     font-size: 0.875rem;
   }
   #navbar {
     display: none;
   }
-  .logo img{
+  .logo img {
     width: 40px;
   }
-  .logo h1{
+  .logo h1 {
     font-size: 1.313rem;
   }
   .banner-text h1 {
     font-size: 1.375rem;
     font-weight: 800;
-  }
-  ont-size: 1.375rem;
+
+    font-size: 1.375rem;
   }
   .mobile-menu {
     display: block;
@@ -37,9 +37,23 @@
   select {
     padding: 20px;
   }
-  .search-input-group input,
-  select,
-  button {
+  .search-input-group > input,
+  select {
     width: 100% !important;
+  }
+  .search-input-group > button {
+    width: 100% !important;
+  }
+  /* tours area */
+  .our-tours-area {
+    flex-direction: column;
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+  .tours-text {
+    width: 100%;
+  }
+  .tour-img {
+    width: 100%;
   }
 }
