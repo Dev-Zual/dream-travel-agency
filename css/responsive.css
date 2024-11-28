@@ -127,4 +127,23 @@
     font-size: 1.25rem;
     font-weight: 800;
   }
+  .newsletter-area {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .newsletter-mailbox {
+    width: 100%;
+  }
+  .newsletter-img {
+    width: 100%;
+  }
+  footer {
+    padding: 40px 0;
+  }
+  .footer-area hr {
+    margin: 1.7rem 0;
+  }
+  .footer-area p {
+    margin-bottom: 0;
+  }
 }
